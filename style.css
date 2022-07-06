@@ -79,7 +79,7 @@ p{
 .p-1{
   background-color: rgb(212, 208, 208);
   width: 150px;
-  border: 5px solid black;
+  border:  solid rgb(54, 54, 54);
   text-align: center;
 }
 .p-2{
@@ -91,13 +91,13 @@ p{
 .p-3{
     background-color: rgb(212, 208, 208);
     width: 150px;
-    border: 5px solid black;
+    border:  solid rgb(54, 54, 54);
     text-align: center;
 }
 .p-4{
     background-color: rgb(212, 208, 208);
     width:150px;
-    border: 5px solid black;
+    border:  solid rgb(54, 54, 54);
     text-align: center;
 
 }
@@ -105,6 +105,62 @@ p{
 .p-5{
     background-color: rgb(212, 208, 208);
     width: 150px;
-    border: solid black;
+    border: solid rgb(54, 54, 54);
     text-align: center;
+}
+.taka{
+
+text-align: center;
+margin: 10%;
+text-decoration: underline;
+text-decoration-color: red;
+text-decoration-thickness:3px ;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     margin: 0;
+
+    
+}
+.button-2{
+    text-decoration: none;
+    background-color: red;
+    padding: 15px 40px;
+    color: aliceblue;
+    font-weight: 800;
+    border-radius: 8%;
+}
+
+.good{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+#no{
+    background-color: #EDF5F6;
+    width: 50%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-left: 5%;
+    border-radius: 3%;
+}
+#na{
+    background-color: #FFF4D6;
+    width: 50%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 3%;
+}
+#ni{
+    background-color: #FFEEEE;
+    width: 50%;
+    padding: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 3%;
 }
